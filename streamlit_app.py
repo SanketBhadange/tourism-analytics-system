@@ -34,7 +34,7 @@ def load_data():
 
     return df
 
-df = load_data().sample(15000)
+df = load_data().sample(7000)
 
 st.success("Dataset loaded successfully")
 
